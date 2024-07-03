@@ -1,0 +1,36 @@
+* {color: black;}
+
+#title {
+    font-family: Helvetica, sans-serif, ;
+    color: #042B8E00;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+body {
+    background-image: url("./images/nz.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+button {
+    background-color: #00000000;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px ;
+    font-weight: 100;
+    width: 50%;
+    border-radius: 12px;
+    border: #00000000;
+    border-style: solid;
+}
+button:hover {
+    border: white;
+    border-style: solid;
+}
