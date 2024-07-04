@@ -1,4 +1,8 @@
-* {color: black;}
+* {
+    color: black;
+    box-sizing: border-box;
+
+}
 
 #title {
     font-family: Helvetica, sans-serif, ;
@@ -33,4 +37,16 @@ button {
 button:hover {
     border: white;
     border-style: solid;
+}
+
+ul {
+    list-style: "*" inside;
+    display: block;
+    padding: 20px;
+    /* border: 2px solid; */
+}
+
+li {
+    /* padding: 20px; */
+    margin: 10px;
 }
